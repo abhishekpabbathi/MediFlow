@@ -1,3 +1,5 @@
 .env
 *.key
 venv/
+*.swp
+*.swo
