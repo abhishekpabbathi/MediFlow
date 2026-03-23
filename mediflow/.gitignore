@@ -1,6 +1,35 @@
-venv/
+# Python
 __pycache__/
-*.pyc
-db.sqlite3
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+venv/
+env/
+
+# Environment Variables
 .env
+
+# Database
+db.sqlite3
 *.sqlite3
+
+# Static & Media (generated files)
+staticfiles/
+media/
+
+# Django stuff
+*.log
+local_settings.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Migrations (optional - keep if needed)
+# */migrations/*
+# !*/migrations/__init__.py
